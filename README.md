@@ -10,3 +10,5 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 
 & "c:\dev\1-6-llm\.venv\Scripts\Activate.ps1"
+
+poetry add fastapi

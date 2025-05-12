@@ -8,3 +8,5 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ![image](https://github.com/user-attachments/assets/b6f3684c-d307-4f0d-b4fc-d27ad04d6c1d)
 
+
+& "c:\dev\1-6-llm\.venv\Scripts\Activate.ps1"

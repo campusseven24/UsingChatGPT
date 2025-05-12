@@ -1,3 +1,6 @@
+'''
+mermaid
+
 erDiagram
 
   users ||--o{ carts : has
@@ -62,3 +65,5 @@ erDiagram
     int quantity
     numeric price
   }
+
+'''

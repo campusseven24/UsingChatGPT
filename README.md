@@ -18,8 +18,10 @@
 3) PowerShell에서 가상환경 진입 명령어
 
    & "c:\dev\1-6-llm\.venv\Scripts\Activate.ps1"
+   & "c:\dev\1-6-llm\.venv\Scripts\Activate.ps1"
 
-4) 모듈, 패키지 추가
+
+5) 모듈, 패키지 추가
    
      poetry add fastapi
   

@@ -1,0 +1,43 @@
+my_fastapi_app/
+│
+├── app/                            # 앱의 주요 비즈니스 로직
+│   ├── __init__.py
+│   ├── main.py                     # FastAPI 엔트리포인트
+│   ├── api/                        # API 라우터 정의
+│   │   ├── __init__.py
+│   │   ├── v1/
+│   │   │   ├── __init__.py
+│   │   │   ├── user.py             # 사용자 관련 라우터
+│   │   │   └── item.py             # 아이템 관련 라우터
+│   │
+│   ├── core/                       # 핵심 설정 (환경변수, 보안 등)
+│   │   ├── __init__.py
+│   │   ├── config.py               # 환경설정
+│   │   └── security.py             # JWT 등 보안 관련 유틸
+│   │
+│   ├── models/                     # SQLAlchemy 모델 정의
+│   │   ├── __init__.py
+│   │   ├── user.py
+│   │   └── item.py
+│   │
+│   ├── schemas/                    # Pydantic 스키마 (입출력용)
+│   │   ├── __init__.py
+│   │   ├── user.py
+│   │   └── item.py
+│   │
+│   ├── crud/                       # 데이터베이스 조작 함수 (Create, Read, Update, Delete)
+│   │   ├── __init__.py
+│   │   ├── user.py
+│   │   └── item.py
+│   │
+│   └── db/                         # 데이터베이스 연결 세팅
+│       ├── __init__.py
+│       ├── base.py                 # 모든 모델을 import
+│       └── session.py              # SQLAlchemy 세션
+│
+├── tests/                          # 테스트 코드 디렉토리
+│   └── test_user.py
+│
+├── .env                            # 환경 변수 파일
+├── requirements.txt                # 패키지 목록
+└── run.py                          # 앱 실행 스크립트 (개발용)

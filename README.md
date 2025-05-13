@@ -20,6 +20,7 @@
    & "c:\dev\1-6-llm\.venv\Scripts\Activate.ps1"
 
 4) 모듈, 패키지 추가
+   
   poetry add fastapi
   poetry add uvicorn
 

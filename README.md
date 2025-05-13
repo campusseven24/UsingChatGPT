@@ -19,7 +19,8 @@
 
    & "c:\dev\1-6-llm\.venv\Scripts\Activate.ps1"
    
-   & "c:\dev\1-6-llm\.venv\Scripts\Activate.ps1"
+![image](https://github.com/user-attachments/assets/494c7eb7-aeba-4114-b9e7-5dc999b8735f)
+
 
 
 5) 모듈, 패키지 추가
